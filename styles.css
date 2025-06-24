@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #121212; /* ダーク背景に変更 */
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,14 +16,14 @@ body {
 
 .container {
     text-align: center;
-    background: white;
+    background: #1e1e1e; /* 内部コンテナもダーク色に */
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
     margin-bottom: 2rem;
 }
 
@@ -33,7 +34,7 @@ h1 {
 .timer {
     font-size: 4rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .controls {
