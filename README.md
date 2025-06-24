@@ -23,3 +23,4 @@
 - HTML5
 - CSS3
 - JavaScript
+※これはGit練習のテストです。
